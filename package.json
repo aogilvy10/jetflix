@@ -1,6 +1,59 @@
 {
+  "name": "jetflix",
+  "version": "1.0.0",
+  "main": "backend/index.js",
+  "repository": "git@github.com:aogilvy10/jetflix.git",
+  "author": "Andrew Ogilvy <ogilvyandrew@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node backend/db/seeds.js",
+	  "dev": "nodemon", 
+    "start": "node backend/index.js",
+    "build": "cd client && yarn && yarn run build"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
+  },
   "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
     "react-dropzone": "^11.3.2",
-    "react-slick": "^0.28.1"
+    "@creativebulma/bulma-tooltip": "^1.2.0",
+    "@jswork/react-tip": "^1.0.0",
+    "bulma": "^0.9.2",
+    "eslint-plugin-react": "^7.18.3",
+    "http-proxy-middleware": "^1.0.5",
+    "node-sass": "^4.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-map-gl": "^6.1.11",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.0",
+    "react-semantic": "^0.1.1",
+    "react-slick": "^0.28.1",
+    "react-tip": "^0.0.2",
+    "react-tooltip": "^4.2.17",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
