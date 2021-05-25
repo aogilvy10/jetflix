@@ -80,7 +80,7 @@ Users can:
 - View all users posts and profiles
 - Search for certain tags or locations for a destination
 
-Our group was picked at random and once we came together I initially had an idea of what to do for the project before hearing my groups idea. Luckily everyone liked the idea and thus we created JETFLIX. JETFLIX is a travel destination aaplication that allows you to register and add your favorite destinations to your profile, making them easily accessable for you. Each destination has an about snippet with key tags giving you an idea of the location.
+Our group was picked at random and once we came together I initially had an idea of what to do for the project before hearing my groups idea. Luckily everyone liked the idea and thus we created JETFLIX. JETFLIX is a travel destination aplication that allows you to register and add your favorite destinations to your profile, making them easily accessable for you. Each destination has an about snippet with key tags giving you an idea of the location.
 
 
 ### Getting Started (Day 1 & 2)
